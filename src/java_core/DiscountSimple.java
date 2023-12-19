@@ -3,7 +3,7 @@ package java_core;
 public class DiscountSimple {
 public static void main(String args[]) {
 	double finalPrice;
-	double totalPrice = 100;
+	double totalPrice = 1000;
 	int discount = 10;
 	if (totalPrice > 500) {
 		finalPrice = totalPrice * (1- ((double)discount/100));
@@ -14,5 +14,9 @@ public static void main(String args[]) {
 		finalPrice = totalPrice * (1- ((double)5/100));
 	}
 	System.out.println("Total price: " + finalPrice  );
+	
+	//single line alternate code: 
+	System.out.println("new cost: " + (totalPrice > 500 ? totalPrice*0.9 : totalPrice*0.95));
+
 }
 }
