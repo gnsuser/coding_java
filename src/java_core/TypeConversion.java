@@ -13,7 +13,7 @@ public static void main(String args[]) {
 	System.out.println(b);
 	float f = b;
 	System.out.println(f);
-	//explicit type conversion. not by compiler automatically. we have to specifically mention
+	//explicit type conversion. or typecasting not by compiler automatically. we have to specifically mention
 	// when the data will lost, specifically. 
 	int g = (int)e;
 	System.out.println(g);
