@@ -11,6 +11,7 @@ public class UnaryOperators {
 		System.out.println(!whatIf);
 		
 		// bitwise complement 
+		System.out.println(~numOne);
 
 	}
 
