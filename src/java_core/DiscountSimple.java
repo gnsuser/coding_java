@@ -15,7 +15,7 @@ public static void main(String args[]) {
 	}
 	System.out.println("Total price: " + finalPrice  );
 	
-	//single line alternate code: 
+	//single line alternate code - ternary operator: 
 	System.out.println("new cost: " + (totalPrice > 500 ? totalPrice*0.9 : totalPrice*0.95));
 
 }
