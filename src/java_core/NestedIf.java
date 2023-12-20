@@ -6,7 +6,7 @@ public class NestedIf {
 		float unitPrice= 10f;
 		double totalCost = numOfItem * unitPrice;
 		int deliveryCharges = 40;
-		String customerType = "Prime";
+		String customerType = "Regular";
 		if (customerType == "Prime") {
 			System.out.println("5% discount applied along with free delivery as prime member benefit");
 			totalCost = totalCost * (1- 0.05);
