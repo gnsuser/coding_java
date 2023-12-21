@@ -11,8 +11,11 @@ public static void main(String args[]) {
 	if (orderPlace=='Y' || orderPlace == 'y') {
 	System.out.println("Order Placed successfully");
 	}
+
+	
 	}
 	System.out.println("Thanks for shopping at genieus.in :) have a good day !!");
 	
 }
 }
+
