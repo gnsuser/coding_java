@@ -9,19 +9,20 @@ public class ThreeIntegers {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         System.out.println("Kindly enter the first positive integer: ");
-        int output = 0;
         int num1 = sc.nextInt();
-        if (num1<0){
+        while (num1<0){
            System.out.println("Integer value is negative Kindly enter positive integer: ");
            num1 = sc.nextInt(); 
         }
+        System.out.println("Kindly enter the second positive integer: ");
                 int num2 = sc.nextInt();
-        if (num2<0){
+        while (num2<0){
            System.out.println("Integer value is negative Kindly enter positive integer: ");
            num2 = sc.nextInt(); 
         }
+        System.out.println("Kindly enter the third positive integer: ");
                 int num3 = sc.nextInt();
-        if (num3<0){
+        while (num3<0){
            System.out.println("Integer value is negative Kindly enter positive integer: ");
            num3 = sc.nextInt(); 
         }
