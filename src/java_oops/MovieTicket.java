@@ -13,7 +13,6 @@ public class MovieTicket {
         double amount = Math.round((costPerTicket*noOfSeats)*(1.02));
         return amount;
     }
-    
 }
 class Tester {
     public static void main(String[] args) {
