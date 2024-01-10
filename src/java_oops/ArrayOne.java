@@ -14,10 +14,10 @@ public class ArrayOne {
         //or for array there is one more for-each loop
         for(String contact: contactNumber){
             System.out.println(contact);
-
+        }
         //below is an example of a 2D array 
         int TwoDimArray[][] = {{22,29},{21,21}, {50,50}, {55,55}};
         System.out.println(TwoDimArray[0][0]);
-        }
+        
     }
 }

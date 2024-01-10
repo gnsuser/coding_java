@@ -16,6 +16,8 @@ public class StringFunctions {
         System.out.println(name.charAt(5));
         System.out.println(name.contains("Gau"));
         System.out.println(name.replace("Gau", "stu"));
+        String surname = "gaurav";
+        System.out.println(surname.substring(3,6));
 
     }
 }
